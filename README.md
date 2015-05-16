@@ -1,5 +1,5 @@
 # GephiStreamer
-`
+```java
 NodeEntity node01 = new NodeEntity("test-node-01");
 NodeEntity node02 = new NodeEntity("test-node-02");
 EdgeEntity edge = new EdgeEntity(node01, node02);
@@ -12,4 +12,4 @@ SimpleGephiStreamer streamer = new SimpleGephiStreamer();
 streamer.sendAction(action01);
 streamer.sendAction(action02);
 streamer.sendAction(action03);
-`
+```
